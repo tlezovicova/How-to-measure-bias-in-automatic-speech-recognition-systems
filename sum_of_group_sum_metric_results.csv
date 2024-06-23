@@ -1,0 +1,6 @@
+Model,Total_Bias_Error
+FT-Wpr,2.52
+NoAug,2.28
+SpAug,2.78
+SpSpecAug,2.71
+Whisper,2.04

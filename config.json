@@ -1,0 +1,11 @@
+{
+    "base_path": "asr_output",
+    "speaking_style_folders": ["Rd", "HMI"],
+    "speaking_style_infixes": ["_Rd", "_HMI"],
+    "speaker_groups": ["DC", "DT", "DOA", "NnT", "NnA"],
+    "asr_models": ["NoAug", "SpAug", "SpSpecAug", "Whisper", "FT-Wpr"],
+    "path_templates": {
+        "error_rate_file": "{base_path}\\{asr_model}\\{speaking_style_folder}\\{speaker_group}{speaking_style_infix}_output.csv",
+        "meta_file": "{base_path}\\Meta\\{speaking_style_folder}\\{speaker_group}{speaking_style_infix}"
+    }
+}
