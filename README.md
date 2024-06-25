@@ -1,7 +1,7 @@
 # How-to-measure-bias-in-automatic-speech-recognition-systems
 
 ## Overview
-This repository contains the implementation and results of an extensive analysis of bias metrics in Automatic Speech Recognition (ASR) systems. The project aims to explore various bias metrics that do not rely on a reference group, providing insights into the fairness and performance disparities across different demographic groups.
+This repository contains the implementation and results of an extensive analysis of bias metrics in Automatic Speech Recognition (ASR) systems for the [Research Project](https://github.com/TU-Delft-CSE/Research-Project) 2024 at the [TU Delft](https://github.com/TU-Delft-CSE). The project aims to explore various bias metrics that do not rely on a reference group, providing insights into the fairness and performance disparities across different demographic groups.
 
 ## Repository Structure
 - `average.py`: Script to calculate G2Average metric.
